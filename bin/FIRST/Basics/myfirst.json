@@ -1,0 +1,65 @@
+{
+    "contractName": "myfirst",
+    "abi": [],
+    "metadata": "{\"compiler\":{\"version\":\"0.8.14+commit.80d49f37\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"c:/Users/Home/Documents/solidity/FIRST/Basics/myfirstcontract.sol\":\"myfirst\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"c:/Users/Home/Documents/solidity/FIRST/Basics/myfirstcontract.sol\":{\"keccak256\":\"0x2ef5d4d5c477b5d3a797e20a6482ce9a68683eaa1d05c642d7f0ddd624ff685e\",\"license\":\"UNLICENSED\",\"urls\":[\"bzz-raw://bacd65b70c4df87d48cf82ee34ce704dd529767ca0e6ebbbd1d441b04bf9656f\",\"dweb:/ipfs/QmRouMsKcvyGeCahnZN5b1wu9BFKjwyecfnjHwhpkkPDuR\"]}},\"version\":1}",
+    "bytecode": "6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea26469706673582212206a08e203c79205066880439422ecea38ac7968d4ab9aa921ffe942ba3b5a61a164736f6c634300080e0033",
+    "deployedBytecode": "6080604052600080fdfea26469706673582212206a08e203c79205066880439422ecea38ac7968d4ab9aa921ffe942ba3b5a61a164736f6c634300080e0033",
+    "sourceMap": "276:56:0:-:0;;;;;;;;;;;;;;;;;;;",
+    "deployedSourceMap": "276:56:0:-:0;;;;;",
+    "sourcePath": "c:/Users/Home/Documents/solidity/FIRST/Basics/myfirstcontract.sol",
+    "compiler": {
+        "name": "solc",
+        "version": "0.8.14+commit.80d49f37"
+    },
+    "ast": {
+        "absolutePath": "c:/Users/Home/Documents/solidity/FIRST/Basics/myfirstcontract.sol",
+        "exportedSymbols": {
+            "myfirst": [
+                2
+            ]
+        },
+        "id": 3,
+        "license": "UNLICENSED",
+        "nodeType": "SourceUnit",
+        "nodes": [
+            {
+                "id": 1,
+                "literals": [
+                    "solidity",
+                    "0.8",
+                    ".14"
+                ],
+                "nodeType": "PragmaDirective",
+                "src": "228:23:0"
+            },
+            {
+                "abstract": false,
+                "baseContracts": [],
+                "canonicalName": "myfirst",
+                "contractDependencies": [],
+                "contractKind": "contract",
+                "fullyImplemented": true,
+                "id": 2,
+                "linearizedBaseContracts": [
+                    2
+                ],
+                "name": "myfirst",
+                "nameLocation": "285:7:0",
+                "nodeType": "ContractDefinition",
+                "nodes": [],
+                "scope": 3,
+                "src": "276:56:0",
+                "usedErrors": []
+            }
+        ],
+        "src": "228:104:0"
+    },
+    "functionHashes": {},
+    "gasEstimates": {
+        "creation": {
+            "codeDepositCost": "12600",
+            "executionCost": "66",
+            "totalCost": "12666"
+        }
+    }
+}
