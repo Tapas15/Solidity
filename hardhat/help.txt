@@ -1,0 +1,3 @@
+Hereis the guide to install hardhat file 
+npm install --save-dev hardhat # to save the node file 
+npx hardhat # to enter the destination folder for nft module 
