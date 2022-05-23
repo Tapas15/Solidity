@@ -3,7 +3,7 @@ This is the basic environment setup for solidity app developmet
 in computer 
 
 solidity tools for windows 
-
+npm i hardhat
 install visual studio code 
 install ganache 
 install truffle 
