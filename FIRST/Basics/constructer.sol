@@ -1,7 +1,7 @@
 pragma solidity 0.8.14;
-/// @title A title that should describe the contract/interface
-/// @author The name of the author
-/// @notice Explain to an end user what this does
+/// @title A basic conctructor contract 
+/// @author Tapas
+/// @notice Basic only
 /// @dev Explain to a developer any extra details
 contract Greet {
     //it is the first empty type address variable will be set in constructer 
