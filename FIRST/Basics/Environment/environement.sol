@@ -24,6 +24,9 @@ remix project installation beneth the ide works as solidity component like remix
 npm install @remix-project/remix-solidity
 install truffle npm install truffle -g 
 check in terminal truffle version 
+npm truffle init // find if this works
+truffle console 
+turffle init // initializaiton token successfull
 and ready to go 
 
 */
