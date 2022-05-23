@@ -3,5 +3,5 @@
    /*
       * This is a multi-line comment in solidity
       * It is very similar to comments in C Programming
-      its done 
+      its done to change in one file git commit comments.sol -m "first" 
    */
