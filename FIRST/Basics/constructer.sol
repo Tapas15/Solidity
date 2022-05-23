@@ -15,7 +15,7 @@ contract Greet {
     }
 
     function greet() public view returns (string memory) {
-        return greeting; // it resutns the msg to see the greeting made by 
+        return greeting; // it resutns the msg to see the greeting made by me 
         }
     
 }
