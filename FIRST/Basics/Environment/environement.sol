@@ -9,6 +9,8 @@ install ganache
 install truffle 
 install solidity
 install ethereum
+install extension for visual studio code Tailwind CSS IntelliSense
+install solidity extension Juan Blanco
 a youtube link is best describes is provided below 
 please follow the link below for deteail instuction to install
 https://youtu.be/ijqfiO-c3ng
