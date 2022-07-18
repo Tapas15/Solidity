@@ -1,0 +1,967 @@
+{
+  "contractName": "NFT_Events",
+  "abi": [
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "contract NFT",
+          "name": "_NFT",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "internalType": "address",
+          "name": "owner",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "internalType": "string",
+          "name": "name",
+          "type": "string"
+        },
+        {
+          "indexed": false,
+          "internalType": "string",
+          "name": "Type",
+          "type": "string"
+        }
+      ],
+      "name": "NFTCreated",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "contract NFT",
+          "name": "_NFT",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "tokenId",
+          "type": "uint256"
+        },
+        {
+          "indexed": false,
+          "internalType": "address",
+          "name": "_newOwner",
+          "type": "address"
+        }
+      ],
+      "name": "OwnershipUpdated",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "contract NFT",
+          "name": "_NFT",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "tokenId",
+          "type": "uint256"
+        },
+        {
+          "indexed": false,
+          "internalType": "string",
+          "name": "_status",
+          "type": "string"
+        }
+      ],
+      "name": "statusUpdated",
+      "type": "event"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.0+commit.c7dfd78e\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"contract NFT\",\"name\":\"_NFT\",\"type\":\"address\"},{\"indexed\":false,\"internalType\":\"address\",\"name\":\"owner\",\"type\":\"address\"},{\"indexed\":false,\"internalType\":\"string\",\"name\":\"name\",\"type\":\"string\"},{\"indexed\":false,\"internalType\":\"string\",\"name\":\"Type\",\"type\":\"string\"}],\"name\":\"NFTCreated\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"contract NFT\",\"name\":\"_NFT\",\"type\":\"address\"},{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"tokenId\",\"type\":\"uint256\"},{\"indexed\":false,\"internalType\":\"address\",\"name\":\"_newOwner\",\"type\":\"address\"}],\"name\":\"OwnershipUpdated\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"contract NFT\",\"name\":\"_NFT\",\"type\":\"address\"},{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"tokenId\",\"type\":\"uint256\"},{\"indexed\":false,\"internalType\":\"string\",\"name\":\"_status\",\"type\":\"string\"}],\"name\":\"statusUpdated\",\"type\":\"event\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/home/gokulalex/NFT_MARKETPLACE/contracts/Events/Events.sol\":\"NFT_Events\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/gokulalex/NFT_MARKETPLACE/contracts/Events/Events.sol\":{\"keccak256\":\"0x376b0f3082a7ed81dcd2f2a02fa4058397512aef2f0498ce511024f4914f3b69\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://2bc65e137c482f67e6cd85b4d3cca8d597d0e427b25558959819c95c84f8e066\",\"dweb:/ipfs/QmQqMSxHZJBXxnb3v2P8kvadbBdNozX2V5CaFGYfJT17Sq\"]},\"/home/gokulalex/NFT_MARKETPLACE/contracts/External/Address.sol\":{\"keccak256\":\"0x3b4820cac4f127869f6eb496c1d74fa6ac86ed24071e0f94742e6aef20e7252c\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://23e1c7303c30a2ef9c9b3f861cda15c78e4c9697b4a7988f2bf7b21c392a02fb\",\"dweb:/ipfs/QmWQJh5MsXJZjSTzAs9n5gtrqWYgXwkBa6xfwD5KKGQgSC\"]},\"/home/gokulalex/NFT_MARKETPLACE/contracts/External/Context.sol\":{\"keccak256\":\"0x95098bd1d9c8dec4d80d3dedb88a0d949fa0d740ee99f2aa466bc308216ca6d5\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://7fec968dcd68e13961521fa3c7dd87baecad91a2653b19240e81f21cc4f3ba85\",\"dweb:/ipfs/QmaXtsYt4Mphm8XHNUfk2me1cF3ssS2SqDBNFpYAzMjomC\"]},\"/home/gokulalex/NFT_MARKETPLACE/contracts/External/Counters.sol\":{\"keccak256\":\"0x78450f4e3b722cce467b21e285f72ce5eaf361e9ba9dd2241a413926246773cd\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://f103065051300cd995fd4599ba91188d4071b92175b52f26110e02db091617c0\",\"dweb:/ipfs/QmSyDz67R2HCypDE8Pacn3voVwxw9x17NM66q47YgBnGqc\"]},\"/home/gokulalex/NFT_MARKETPLACE/contracts/External/ERC165.sol\":{\"keccak256\":\"0x5718c5df9bd67ac68a796961df938821bb5dc0cd4c6118d77e9145afb187409b\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://d10e1d9b26042424789246603906ad06143bf9a928f4e99de8b5e3bdc662f549\",\"dweb:/ipfs/Qmejonoaj5MLekPus229rJQHcC6E9dz2xorjHJR84fMfmn\"]},\"/home/gokulalex/NFT_MARKETPLACE/contracts/External/ERC721.sol\":{\"keccak256\":\"0xe4deaa2763c48cb8333f426987a6abfd2f67aa5cd075fb0aef89ecace33487f1\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://06b5cbd97eadce1d8ca022282a6e209fb18240816d04d293882a64cebbc7faab\",\"dweb:/ipfs/QmRmzXSZWVv7TaaZTwwgfDquMhiFZqhULBfDzRJZYZDpwL\"]},\"/home/gokulalex/NFT_MARKETPLACE/contracts/External/IERC165.sol\":{\"keccak256\":\"0xa28007762d9da9db878dd421960c8cb9a10471f47ab5c1b3309bfe48e9e79ff4\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://796ab6e88af7bf0e78def0f059310c903af6a312b565344e0ff524a0f26e81c6\",\"dweb:/ipfs/QmcsVgLgzWdor3UnAztUkXKNGcysm1MPneWksF72AvnwBx\"]},\"/home/gokulalex/NFT_MARKETPLACE/contracts/External/IERC721.sol\":{\"keccak256\":\"0xe0e811a90fa8c9179bb9b44606f477f6c3a2243708ddeaa9156cc3ae8004239c\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://442efef5eea5e2e0cd21be0a8ca68fa296e5759ae9acdeeb62c1a6a0e762f799\",\"dweb:/ipfs/QmTXP4rpJBHSwMrjyhXUEqv8UQ8YiLuemSzhS6XpR3SWNz\"]},\"/home/gokulalex/NFT_MARKETPLACE/contracts/External/IERC721Metadata.sol\":{\"keccak256\":\"0x0c3ee58edf8b8c487c4333710a2404b78a84230d10e1432c75998e3d8dcb9048\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://c26bbf3e3e32b3ce219ebaa746a5788b38524f58b54f8665fe75c7ce9b77c230\",\"dweb:/ipfs/QmWFmd8de26oUgr6X2Zqt4b5bi7P7vwCPyVT8ECZj5tgDb\"]},\"/home/gokulalex/NFT_MARKETPLACE/contracts/External/IERC721Receiver.sol\":{\"keccak256\":\"0xd9517254724276e2e8de3769183c1f738f445f0095c26fd9b86d3c6687e887b9\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://0e604bcdcd5e5b2fb299ad09769cde6db19d5aa1929d1b5e939234a0f10d7eb8\",\"dweb:/ipfs/Qmd8hXE3GZfBHuWx3RNiYgFW2ci7KvHtib8DiwzJ2dgo9V\"]},\"/home/gokulalex/NFT_MARKETPLACE/contracts/External/Ownable.sol\":{\"keccak256\":\"0xa793780196cb4f7e628cf2b79ed8d5ce018434315348efd2cc321a9c32bf73d0\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://13a5a8792bef7fd2f16ef31c81b69c4c90585915b387e73597332d946032af30\",\"dweb:/ipfs/QmZYwLG1cjiRLnfD93ZvtqJ59LRnP5yH95KLLTYJfKfczJ\"]},\"/home/gokulalex/NFT_MARKETPLACE/contracts/External/SafeMath.sol\":{\"keccak256\":\"0x8666f020bd8fc9dc14f07e2ebc52b5f236ab4cdde7c77679b08cb2f94730043b\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://163776cbf565c722232393aa2d62cbe8a2ffb5805986abf4906c00e1e07450a6\",\"dweb:/ipfs/QmPZoN9T3cb6o8bGhjBPZcz7im8T8DWhpr3tjLwhJJHx9N\"]},\"/home/gokulalex/NFT_MARKETPLACE/contracts/External/Strings.sol\":{\"keccak256\":\"0x391d3ba97ab6856a16b225d6ee29617ad15ff00db70f3b4df1ab5ea33aa47c9d\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://d636ba90bbbeed04a1ea7fe9ec2466757e30fd38ba2ca173636dbf69a518735e\",\"dweb:/ipfs/QmQwCB2BHnEuYR22PYt9HkpbgeFDhq4rHmaYqAZbX3WRC7\"]},\"/home/gokulalex/NFT_MARKETPLACE/contracts/NFT.sol\":{\"keccak256\":\"0x34539f8a77aedc353d6456d634d53e2ec823e15dc8c9586900d4dc994ed88eeb\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://e25924f94d4a9292cc86c5d3b82efb6f8f57eb88218f8ce3bac6365d32b90271\",\"dweb:/ipfs/QmdHR7xchSBkw4SdxAWuK8cVK28cKcEZnzpdYWMErpyCGt\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea264697066735822122037fe6f06b14d41871670e449fc72a2e609c48d3b7ed7d667e52b3f1dbdcdd6be64736f6c63430008000033",
+  "deployedBytecode": "0x6080604052600080fdfea264697066735822122037fe6f06b14d41871670e449fc72a2e609c48d3b7ed7d667e52b3f1dbdcdd6be64736f6c63430008000033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "81:408:2:-:0;;;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "81:408:2:-:0;;;;;",
+  "source": "// SPDX-License-Identifier: MIT\n\npragma solidity ^0.8.0;\n\nimport \"../NFT.sol\";\n\n\ncontract NFT_Events {\n    \n    \n    event NFTCreated (\n      \n      NFT _NFT,  \n      address owner,\n      string name,\n      string Type\n    \n    );\n        \n        \n    event OwnershipUpdated (\n        \n      NFT _NFT,\n      uint256 tokenId,\n      address _newOwner\n        \n    ); \n    \n    event statusUpdated(\n        \n      NFT _NFT,\n      uint256 tokenId,\n      string _status \n        \n    );\n    \n}\n    \n    \n",
+  "sourcePath": "/home/gokulalex/NFT_MARKETPLACE/contracts/Events/Events.sol",
+  "ast": {
+    "absolutePath": "/home/gokulalex/NFT_MARKETPLACE/contracts/Events/Events.sol",
+    "exportedSymbols": {
+      "Address": [
+        970
+      ],
+      "Context": [
+        991
+      ],
+      "Counters": [
+        1065
+      ],
+      "ERC165": [
+        1089
+      ],
+      "ERC721": [
+        1931
+      ],
+      "IERC165": [
+        2016
+      ],
+      "IERC721": [
+        2210
+      ],
+      "IERC721Metadata": [
+        2237
+      ],
+      "IERC721Receiver": [
+        2255
+      ],
+      "NFT": [
+        3397
+      ],
+      "NFT_Events": [
+        391
+      ],
+      "Ownable": [
+        2365
+      ],
+      "SafeMath": [
+        2809
+      ],
+      "Strings": [
+        3012
+      ]
+    },
+    "id": 392,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 360,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "33:23:2"
+      },
+      {
+        "absolutePath": "/home/gokulalex/NFT_MARKETPLACE/contracts/NFT.sol",
+        "file": "../NFT.sol",
+        "id": 361,
+        "nodeType": "ImportDirective",
+        "scope": 392,
+        "sourceUnit": 3398,
+        "src": "58:20:2",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 391,
+        "linearizedBaseContracts": [
+          391
+        ],
+        "name": "NFT_Events",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "anonymous": false,
+            "id": 372,
+            "name": "NFTCreated",
+            "nodeType": "EventDefinition",
+            "parameters": {
+              "id": 371,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 364,
+                  "indexed": false,
+                  "mutability": "mutable",
+                  "name": "_NFT",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 372,
+                  "src": "149:8:2",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_contract$_NFT_$3397",
+                    "typeString": "contract NFT"
+                  },
+                  "typeName": {
+                    "id": 363,
+                    "nodeType": "UserDefinedTypeName",
+                    "pathNode": {
+                      "id": 362,
+                      "name": "NFT",
+                      "nodeType": "IdentifierPath",
+                      "referencedDeclaration": 3397,
+                      "src": "149:3:2"
+                    },
+                    "referencedDeclaration": 3397,
+                    "src": "149:3:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_contract$_NFT_$3397",
+                      "typeString": "contract NFT"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 366,
+                  "indexed": false,
+                  "mutability": "mutable",
+                  "name": "owner",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 372,
+                  "src": "167:13:2",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 365,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "167:7:2",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 368,
+                  "indexed": false,
+                  "mutability": "mutable",
+                  "name": "name",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 372,
+                  "src": "188:11:2",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 367,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "188:6:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 370,
+                  "indexed": false,
+                  "mutability": "mutable",
+                  "name": "Type",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 372,
+                  "src": "207:11:2",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 369,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "207:6:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "134:95:2"
+            },
+            "src": "117:113:2"
+          },
+          {
+            "anonymous": false,
+            "id": 381,
+            "name": "OwnershipUpdated",
+            "nodeType": "EventDefinition",
+            "parameters": {
+              "id": 380,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 375,
+                  "indexed": false,
+                  "mutability": "mutable",
+                  "name": "_NFT",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 381,
+                  "src": "293:8:2",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_contract$_NFT_$3397",
+                    "typeString": "contract NFT"
+                  },
+                  "typeName": {
+                    "id": 374,
+                    "nodeType": "UserDefinedTypeName",
+                    "pathNode": {
+                      "id": 373,
+                      "name": "NFT",
+                      "nodeType": "IdentifierPath",
+                      "referencedDeclaration": 3397,
+                      "src": "293:3:2"
+                    },
+                    "referencedDeclaration": 3397,
+                    "src": "293:3:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_contract$_NFT_$3397",
+                      "typeString": "contract NFT"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 377,
+                  "indexed": false,
+                  "mutability": "mutable",
+                  "name": "tokenId",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 381,
+                  "src": "309:15:2",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 376,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "309:7:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 379,
+                  "indexed": false,
+                  "mutability": "mutable",
+                  "name": "_newOwner",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 381,
+                  "src": "332:17:2",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 378,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "332:7:2",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "276:88:2"
+            },
+            "src": "253:112:2"
+          },
+          {
+            "anonymous": false,
+            "id": 390,
+            "name": "statusUpdated",
+            "nodeType": "EventDefinition",
+            "parameters": {
+              "id": 389,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 384,
+                  "indexed": false,
+                  "mutability": "mutable",
+                  "name": "_NFT",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 390,
+                  "src": "412:8:2",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_contract$_NFT_$3397",
+                    "typeString": "contract NFT"
+                  },
+                  "typeName": {
+                    "id": 383,
+                    "nodeType": "UserDefinedTypeName",
+                    "pathNode": {
+                      "id": 382,
+                      "name": "NFT",
+                      "nodeType": "IdentifierPath",
+                      "referencedDeclaration": 3397,
+                      "src": "412:3:2"
+                    },
+                    "referencedDeclaration": 3397,
+                    "src": "412:3:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_contract$_NFT_$3397",
+                      "typeString": "contract NFT"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 386,
+                  "indexed": false,
+                  "mutability": "mutable",
+                  "name": "tokenId",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 390,
+                  "src": "428:15:2",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 385,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "428:7:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 388,
+                  "indexed": false,
+                  "mutability": "mutable",
+                  "name": "_status",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 390,
+                  "src": "451:14:2",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 387,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "451:6:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "395:86:2"
+            },
+            "src": "376:106:2"
+          }
+        ],
+        "scope": 392,
+        "src": "81:408:2"
+      }
+    ],
+    "src": "33:467:2"
+  },
+  "legacyAST": {
+    "absolutePath": "/home/gokulalex/NFT_MARKETPLACE/contracts/Events/Events.sol",
+    "exportedSymbols": {
+      "Address": [
+        970
+      ],
+      "Context": [
+        991
+      ],
+      "Counters": [
+        1065
+      ],
+      "ERC165": [
+        1089
+      ],
+      "ERC721": [
+        1931
+      ],
+      "IERC165": [
+        2016
+      ],
+      "IERC721": [
+        2210
+      ],
+      "IERC721Metadata": [
+        2237
+      ],
+      "IERC721Receiver": [
+        2255
+      ],
+      "NFT": [
+        3397
+      ],
+      "NFT_Events": [
+        391
+      ],
+      "Ownable": [
+        2365
+      ],
+      "SafeMath": [
+        2809
+      ],
+      "Strings": [
+        3012
+      ]
+    },
+    "id": 392,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 360,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "33:23:2"
+      },
+      {
+        "absolutePath": "/home/gokulalex/NFT_MARKETPLACE/contracts/NFT.sol",
+        "file": "../NFT.sol",
+        "id": 361,
+        "nodeType": "ImportDirective",
+        "scope": 392,
+        "sourceUnit": 3398,
+        "src": "58:20:2",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 391,
+        "linearizedBaseContracts": [
+          391
+        ],
+        "name": "NFT_Events",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "anonymous": false,
+            "id": 372,
+            "name": "NFTCreated",
+            "nodeType": "EventDefinition",
+            "parameters": {
+              "id": 371,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 364,
+                  "indexed": false,
+                  "mutability": "mutable",
+                  "name": "_NFT",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 372,
+                  "src": "149:8:2",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_contract$_NFT_$3397",
+                    "typeString": "contract NFT"
+                  },
+                  "typeName": {
+                    "id": 363,
+                    "nodeType": "UserDefinedTypeName",
+                    "pathNode": {
+                      "id": 362,
+                      "name": "NFT",
+                      "nodeType": "IdentifierPath",
+                      "referencedDeclaration": 3397,
+                      "src": "149:3:2"
+                    },
+                    "referencedDeclaration": 3397,
+                    "src": "149:3:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_contract$_NFT_$3397",
+                      "typeString": "contract NFT"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 366,
+                  "indexed": false,
+                  "mutability": "mutable",
+                  "name": "owner",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 372,
+                  "src": "167:13:2",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 365,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "167:7:2",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 368,
+                  "indexed": false,
+                  "mutability": "mutable",
+                  "name": "name",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 372,
+                  "src": "188:11:2",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 367,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "188:6:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 370,
+                  "indexed": false,
+                  "mutability": "mutable",
+                  "name": "Type",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 372,
+                  "src": "207:11:2",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 369,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "207:6:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "134:95:2"
+            },
+            "src": "117:113:2"
+          },
+          {
+            "anonymous": false,
+            "id": 381,
+            "name": "OwnershipUpdated",
+            "nodeType": "EventDefinition",
+            "parameters": {
+              "id": 380,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 375,
+                  "indexed": false,
+                  "mutability": "mutable",
+                  "name": "_NFT",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 381,
+                  "src": "293:8:2",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_contract$_NFT_$3397",
+                    "typeString": "contract NFT"
+                  },
+                  "typeName": {
+                    "id": 374,
+                    "nodeType": "UserDefinedTypeName",
+                    "pathNode": {
+                      "id": 373,
+                      "name": "NFT",
+                      "nodeType": "IdentifierPath",
+                      "referencedDeclaration": 3397,
+                      "src": "293:3:2"
+                    },
+                    "referencedDeclaration": 3397,
+                    "src": "293:3:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_contract$_NFT_$3397",
+                      "typeString": "contract NFT"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 377,
+                  "indexed": false,
+                  "mutability": "mutable",
+                  "name": "tokenId",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 381,
+                  "src": "309:15:2",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 376,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "309:7:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 379,
+                  "indexed": false,
+                  "mutability": "mutable",
+                  "name": "_newOwner",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 381,
+                  "src": "332:17:2",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 378,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "332:7:2",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "276:88:2"
+            },
+            "src": "253:112:2"
+          },
+          {
+            "anonymous": false,
+            "id": 390,
+            "name": "statusUpdated",
+            "nodeType": "EventDefinition",
+            "parameters": {
+              "id": 389,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 384,
+                  "indexed": false,
+                  "mutability": "mutable",
+                  "name": "_NFT",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 390,
+                  "src": "412:8:2",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_contract$_NFT_$3397",
+                    "typeString": "contract NFT"
+                  },
+                  "typeName": {
+                    "id": 383,
+                    "nodeType": "UserDefinedTypeName",
+                    "pathNode": {
+                      "id": 382,
+                      "name": "NFT",
+                      "nodeType": "IdentifierPath",
+                      "referencedDeclaration": 3397,
+                      "src": "412:3:2"
+                    },
+                    "referencedDeclaration": 3397,
+                    "src": "412:3:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_contract$_NFT_$3397",
+                      "typeString": "contract NFT"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 386,
+                  "indexed": false,
+                  "mutability": "mutable",
+                  "name": "tokenId",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 390,
+                  "src": "428:15:2",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 385,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "428:7:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 388,
+                  "indexed": false,
+                  "mutability": "mutable",
+                  "name": "_status",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 390,
+                  "src": "451:14:2",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 387,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "451:6:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "395:86:2"
+            },
+            "src": "376:106:2"
+          }
+        ],
+        "scope": 392,
+        "src": "81:408:2"
+      }
+    ],
+    "src": "33:467:2"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.0+commit.c7dfd78e.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.3.1",
+  "updatedAt": "2021-10-01T13:01:52.755Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
