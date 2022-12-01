@@ -163,6 +163,7 @@
 |     |              | onERC1155BatchReceived | 1)Operator address 2) from address 3)ids 4\_values 5)data bytes |
 |     |              | Owner                  |                                                                 |
                                               |
+|  
 | 1)8 | BatchNfT |                       |                                                      |  |
 
 |     |          | mintBatch             | 1)to2)ids3)amount4)data                              |  |
@@ -174,5 +175,5 @@
 |     |          | balanceOf Batch       | 1)account 2)ids                                      |  |
 |     |          | isApproveforAll       | 1)account 2)operators                                |  |
 |     |          | supportsinferface     | 1)bytes                                              |  |   
-|  
+|     |          |                       |                                                      |  | |
 
