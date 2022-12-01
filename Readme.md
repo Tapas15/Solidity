@@ -164,16 +164,16 @@
 |     |              | Owner                  |                                                                 |
                                               |
 |  
-| 1)8 | BatchNfT |                       |                                                      |  |
+| 1)8 | BatchNfT |                       |                                                      | 
 
-|     |          | mintBatch             | 1)to2)ids3)amount4)data                              |  |
-|     |          | mintNFT               | 1)to2)ids3)amount4)data                              |  |
-|     |          | safeBatchTransferFrom | 1)from address2)to address3) tokenid 4)amount 5)data |  |  
-|     |          | safeTransferFrom      | 1)from address2)to address3) tokenid 4)amount 5)data |  |    
-|     |          | setApproveforAll      | 1)Operator address 2) Approved                       |  |
-|     |          | balanceOf             | 1)account 2)ids                                      |  |
-|     |          | balanceOf Batch       | 1)account 2)ids                                      |  |
-|     |          | isApproveforAll       | 1)account 2)operators                                |  |
-|     |          | supportsinferface     | 1)bytes                                              |  |   
-|     |          |                       |                                                      |  | |
+|     |          | mintBatch             | 1)to2)ids3)amount4)data                              |  
+|     |          | mintNFT               | 1)to2)ids3)amount4)data                              |  
+|     |          | safeBatchTransferFrom | 1)from address2)to address3) tokenid 4)amount 5)data |    
+|     |          | safeTransferFrom      | 1)from address2)to address3) tokenid 4)amount 5)data |      
+|     |          | setApproveforAll      | 1)Operator address 2) Approved                       |  
+|     |          | balanceOf             | 1)account 2)ids                                      |  
+|     |          | balanceOf Batch       | 1)account 2)ids                                      |  
+|     |          | isApproveforAll       | 1)account 2)operators                                |  
+|     |          | supportsinferface     | 1)bytes                                              |     
+|     |          |                       |                                                      |  
 
