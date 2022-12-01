@@ -166,4 +166,22 @@
 |              |                    | balanceOf Batch                        | 1)account 2)ids                                                                                                                |
 |              |                    | isApproveforAll                        | 1)account 2)operators                                                                                                          |
 |              |                    | supportsinferface                      | 1)bytes                                                                                                                        |
-|              |                    | uri                                    | 1)uint                                                                                                                         |
+|              |                    | uri                                    | 1)uint                                                                                       | 7 | BatchSelling |                        |                                                                 |  |
+| - | ------------ | ---------------------- | --------------------------------------------------------------- |  |
+|   |              | BuyFromFixedSale       | 1)nftAddress2tokenid3)amount4)data                              |  |
+|   |              | cancelFixedSale        | 1)nftAddress2tokenid3)amount4)data                              |  |
+|   |              | nftFixedSale           | 1)nftAddress2)erd203)batchids4)amounts5)saleprice6)data         |
+|   |              | setMakerFee            | \_makerFee                                                      |  |
+|   |              | setOwner               | 1)owner 2)Address                                               |  |
+|   |              | updateFixedSalePrice   | 1)nftContractAddres2)tokenid3)updateSalePrice                   |  |
+|   |              | getCrrentTokenid       |                                                                 |  |
+|   |              | getFixedSale           | 1)nftContractAddres2)tokenid                                    |  |
+|   |              | getFixedSaleNFT        |                                                                 |  |
+|   |              | IID\_IERC1155          |                                                                 |  |
+|   |              | isERC1155              | 1)nft address                                                   |  |
+|   |              | makerFee               |                                                                 |  |
+|   |              | nftSaleSatatus         | 1)address 2uint                                                 |  |
+|   |              | onERC1155BatchReceived | 1)Operator address 2) from address 3)ids 4\_values 5)data bytes |
+|   |              | onERC1155BatchReceived | 1)Operator address 2) from address 3)ids 4\_values 5)data bytes |
+|   |              | Owner                  |                                                                 |  |
+| 8 | BatchNfT     |                        |                                                                 |  |                                  
