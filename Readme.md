@@ -145,7 +145,7 @@
 |              |                    | supportsinferface                      | 1)bytes                                                                                                                        |
 |              |                    | symbol                                 |                                                                                                                                |
 |              |                    | tokenURI                               | token id                                                                                                                       |
-| 1)7          | BatchSelling       |                                        |                                                                                                                                |
+| 1)7          | BatchSelling       |                                        |                                                                                                                                
 |     |              | BuyFromFixedSale       | 1)nftAddress2tokenid3)amount4)data                              |
 |     |              | cancelFixedSale        | 1)nftAddress2tokenid3)amount4)data                              |
 |     |              | nftFixedSale           | 1)nftAddress2)erd203)batchids4)amounts5)saleprice6)data         |
@@ -173,5 +173,5 @@
 |              |                    | balanceOf Batch                        | 1)account 2)ids                                                                                                                |
 |              |                    | isApproveforAll                        | 1)account 2)operators                                                                                                          |
 |              |                    | supportsinferface                      | 1)bytes                                                                                                                        |
-|              |                    | uri                                    | 1)uint                                                                                       | 1)7 | BatchSelling |                        |                                                                 |
+|              |                    | uri                                    | 1)uint                                                                                       
 
