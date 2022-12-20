@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-20T02:20:44.721Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="6QaNjmKZuuRGBJKu82n7" version="20.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-20T04:29:10.820Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="R_Lr0uJv261Ccv-ROg9l" version="20.7.3" type="github">
   <diagram id="pqVG_PYFFwPOpTHJoqbJ" name="Page-1">
     <mxGraphModel dx="1114" dy="1659" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -150,7 +150,7 @@
           <mxGeometry x="520" y="520" width="180" height="90" as="geometry" />
         </mxCell>
         <mxCell id="dCvYJfYlRh3OtfU8dMbt-2" value="&lt;h1&gt;Defi Marketplace Diagram&lt;br&gt;&lt;/h1&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="190" y="910" width="160" height="100" as="geometry" />
+          <mxGeometry x="160" y="890" width="160" height="100" as="geometry" />
         </mxCell>
         <mxCell id="dCvYJfYlRh3OtfU8dMbt-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="dCvYJfYlRh3OtfU8dMbt-3" target="dCvYJfYlRh3OtfU8dMbt-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -175,20 +175,14 @@
         <mxCell id="gnjgsBDGoZNJZgiNTWat-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.009;entryY=0.333;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;" edge="1" parent="1" source="dCvYJfYlRh3OtfU8dMbt-12" target="gnjgsBDGoZNJZgiNTWat-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dCvYJfYlRh3OtfU8dMbt-12" value="CAM- Management&lt;br&gt;&lt;ul&gt;&lt;li&gt;Company info&lt;/li&gt;&lt;li&gt;Bank details&lt;/li&gt;&lt;li&gt;Financials&lt;/li&gt;&lt;li&gt;Complaints and litigations&lt;/li&gt;&lt;li&gt;Documents&lt;/li&gt;&lt;li&gt;Crypto Analysis&lt;/li&gt;&lt;li&gt;Director details&lt;/li&gt;&lt;li&gt;Share holding patterns&lt;/li&gt;&lt;li&gt;Key contact person&amp;nbsp;&lt;/li&gt;&lt;li&gt;Credit rating&amp;nbsp;&lt;/li&gt;&lt;li&gt;Address&lt;/li&gt;&lt;li&gt;&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="35" y="1610" width="390" height="180" as="geometry" />
+        <mxCell id="dCvYJfYlRh3OtfU8dMbt-12" value="&lt;u&gt;CAM- Management&lt;/u&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;Company info&lt;/li&gt;&lt;li&gt;Bank details&lt;/li&gt;&lt;li&gt;Financials&lt;/li&gt;&lt;li&gt;Complaints and litigations&lt;/li&gt;&lt;li&gt;Documents&lt;/li&gt;&lt;li&gt;Crypto Analysis&lt;/li&gt;&lt;li&gt;Director details&lt;/li&gt;&lt;li&gt;Share holding patterns&lt;/li&gt;&lt;li&gt;Key contact person&amp;nbsp;&lt;/li&gt;&lt;li&gt;Credit rating&amp;nbsp;&lt;/li&gt;&lt;li&gt;Address&lt;/li&gt;&lt;li&gt;&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="35" y="1610" width="405" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="dCvYJfYlRh3OtfU8dMbt-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="dCvYJfYlRh3OtfU8dMbt-13" target="dCvYJfYlRh3OtfU8dMbt-16" edge="1">
+        <mxCell id="gnjgsBDGoZNJZgiNTWat-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="dCvYJfYlRh3OtfU8dMbt-23" target="gnjgsBDGoZNJZgiNTWat-31">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dCvYJfYlRh3OtfU8dMbt-13" value="Director Details ,Shareholding pattern, Key Personnel, KPI- (Key performence indicators), Credit rating , " style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="100" y="1950" width="130" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="dCvYJfYlRh3OtfU8dMbt-16" value="Defi Market share , Purchase order and order list, doc approval&amp;nbsp; " style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="170" y="2150" width="300" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="dCvYJfYlRh3OtfU8dMbt-23" value="Vessel Information, Insurance Inspection of company report ,BL Generation " style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="500" y="2030" width="300" height="60" as="geometry" />
+        <mxCell id="dCvYJfYlRh3OtfU8dMbt-23" value="&lt;u&gt;Vessel details&lt;/u&gt;&lt;br&gt;Vessel information to the user according to requirement is provided about shipment type&amp;nbsp;&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="125" y="2160" width="300" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gnjgsBDGoZNJZgiNTWat-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="gnjgsBDGoZNJZgiNTWat-1" target="dCvYJfYlRh3OtfU8dMbt-4">
           <mxGeometry relative="1" as="geometry" />
@@ -237,8 +231,50 @@
         <mxCell id="gnjgsBDGoZNJZgiNTWat-15" value="&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;u&gt;Crypto Assets&lt;/u&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;⦁&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;Crypto user will input details regarding Crypto assets holding.&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="50" y="1405" width="210" height="120" as="geometry" />
         </mxCell>
+        <mxCell id="gnjgsBDGoZNJZgiNTWat-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="gnjgsBDGoZNJZgiNTWat-20" target="gnjgsBDGoZNJZgiNTWat-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="gnjgsBDGoZNJZgiNTWat-20" value="&lt;u&gt;Order Management&lt;/u&gt;&amp;nbsp;&lt;br&gt;&lt;ul style=&quot;&quot;&gt;&lt;li style=&quot;&quot;&gt;Defi Market&lt;/li&gt;&lt;li style=&quot;&quot;&gt;Purchase Order&lt;/li&gt;&lt;li style=&quot;&quot;&gt;Document Approval&lt;/li&gt;&lt;/ul&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="530" y="1580" width="220" height="120" as="geometry" />
+          <mxGeometry x="700" y="1570" width="220" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="gnjgsBDGoZNJZgiNTWat-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="gnjgsBDGoZNJZgiNTWat-22" target="gnjgsBDGoZNJZgiNTWat-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gnjgsBDGoZNJZgiNTWat-22" value="&lt;u&gt;Defi Market&lt;/u&gt;&lt;br&gt;Displays information about Defi-market place&amp;nbsp;&lt;br&gt;Smart Contract for marketplace" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="570" y="1740" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="gnjgsBDGoZNJZgiNTWat-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="gnjgsBDGoZNJZgiNTWat-24" target="gnjgsBDGoZNJZgiNTWat-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gnjgsBDGoZNJZgiNTWat-24" value="&lt;u&gt;Purchase Order&lt;/u&gt;&lt;br&gt;User will place an order to purchase respective quantity at marketplace&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="560.31" y="1860" width="159.37" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gnjgsBDGoZNJZgiNTWat-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="gnjgsBDGoZNJZgiNTWat-26" target="gnjgsBDGoZNJZgiNTWat-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gnjgsBDGoZNJZgiNTWat-26" value="&lt;u&gt;Documents&lt;/u&gt;&lt;br&gt;Documents for Approval of purchase order&lt;br&gt;Users will provide some of the valid documents for shipment&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="554.99" y="1980" width="170.01" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gnjgsBDGoZNJZgiNTWat-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="gnjgsBDGoZNJZgiNTWat-28" target="dCvYJfYlRh3OtfU8dMbt-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gnjgsBDGoZNJZgiNTWat-28" value="&lt;u&gt;Shipping Management&lt;/u&gt;&lt;br&gt;&lt;ul style=&quot;&quot;&gt;&lt;li style=&quot;&quot;&gt;Vessel Information&lt;/li&gt;&lt;li style=&quot;&quot;&gt;Insurance&amp;nbsp;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;inspection of commodity report&lt;/li&gt;&lt;li style=&quot;&quot;&gt;Bl generation&lt;/li&gt;&lt;/ul&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1956.5" width="190" height="113.5" as="geometry" />
+        </mxCell>
+        <mxCell id="gnjgsBDGoZNJZgiNTWat-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="gnjgsBDGoZNJZgiNTWat-31" target="gnjgsBDGoZNJZgiNTWat-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gnjgsBDGoZNJZgiNTWat-31" value="&lt;u&gt;Insurance&lt;/u&gt;&amp;nbsp;&lt;br&gt;&lt;ul&gt;&lt;li&gt;Insurance details&amp;nbsp;&lt;/li&gt;&lt;li&gt;Voyage details&lt;/li&gt;&lt;li&gt;Package details&lt;/li&gt;&lt;li&gt;Tax invoice details&lt;/li&gt;&lt;li&gt;Documents&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="125" y="2290" width="270" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="gnjgsBDGoZNJZgiNTWat-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="gnjgsBDGoZNJZgiNTWat-34" target="gnjgsBDGoZNJZgiNTWat-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gnjgsBDGoZNJZgiNTWat-34" value="&lt;u&gt;Inspection of Commodity&lt;/u&gt;&lt;br&gt;Documents related to inspection of commodity is uploaded&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="670" y="2310" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="gnjgsBDGoZNJZgiNTWat-38" value="&lt;u&gt;Bl Generation&lt;/u&gt;&lt;br&gt;After all process final Bill is generated for shipment&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="695" y="2520" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
